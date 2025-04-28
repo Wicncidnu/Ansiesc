@@ -68,6 +68,33 @@ fun main() {
 
 ![colors](./pics/256colors.png)
 
+```kotlin
+"Hello World".rich {
+    it.fgColor(c) // c is a integer number from 0 to 255, and its corresponding color demonstrated above.
+}
+```
+
+```kotlin
+// common-used colors are just aliases of these integers.
+object AnsiColor {
+    const val BLACK = 0
+    const val RED = 1
+    const val GREEN = 2
+    const val YELLOW = 3
+    const val BLUE = 4
+    const val MAGENTA = 5
+    const val CYAN = 6
+    const val WHITE = 7
+    const val BRIGHT_BLACK = 8
+    const val BRIGHT_RED = 9
+    const val BRIGHT_GREEN = 10
+    const val BRIGHT_YELLOW = 11
+    const val BRIGHT_BLUE = 12
+    const val BRIGHT_MAGENTA = 13
+    const val BRIGHT_CYAN = 14
+    const val BRIGHT_WHITE = 15
+}
+```
 # Also support RGB
 
 ```kotlin
