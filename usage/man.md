@@ -131,4 +131,4 @@ Status changes from *DEFAULT* -> *GREEN* (We write "This" here) -> *DEFAULT* -> 
 
 This is the downside of this DSL, and I have no idea to solve this in an elegant way.
 
-The only thing I can do is warn you not to use this DSL in a nested way.
+The only thing I can do is reminds you not to use this DSL in a nested way.
